@@ -1,0 +1,152 @@
+.nav-bar li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-bar li a{
+   
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.nav-bar{
+    
+    padding: 10px;
+    margin-top: 0px;
+    background-color: rgb(3, 2, 29);
+}
+.main-navbar{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.footer{
+    color: white;
+    padding: 0px;
+    position: fixed;
+    height: 60px;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #040213;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border: 5px solid skyblue;
+    padding-right: 50px;
+    padding: 20px 50px 20px 20px;
+}
+label{
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+}
+.input1{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    /* text-align: center; */
+    width: 100%;
+    border: #c2b5b5;
+    font-size: 22px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.input{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    /* text-align: center; */
+    width: 100%;
+    border: #c2b5b5;
+    font-size: 18px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(48, 245, 65);
+    color: #fff;
+    font-weight: bold;
+    width: 120px;
+    border: none;
+}
+button:hover{
+    border-radius: 20px;
+    transition-delay: -1s;
+    cursor: pointer;
+}
+.right-nav{
+    text-align: right;
+}
+.inputError{
+    color: red;
+    margin-top: -15px;
+    display: block;
+    padding-left: 15px;
+}
+
+.list-product{
+    display: block;
+    position: absolute;
+    left: 15%;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+table tr  th, td{
+   border: 1px solid skyblue;
+   padding-left: 30px;
+   padding-right: 30px;
+   
+   
+}
+th{
+    background-color: rgba(11, 4, 51, 0.877);
+    color: #fff;
+}
+
+.search-product-box{
+    width: 40%;
+    height: 35px;
+    padding-left: 15px;
+    box-shadow: #facc15;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px dashed hotpink;
+    outline: none;
+   
+}
+
+
+/* .search-product-box:hover{
+     */
+
+
+.para1{
+    color: #facc15;
+    padding-top: -20px;
+    margin-top: -5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.parent-div{
+    overflow: hidden;
+}
+
